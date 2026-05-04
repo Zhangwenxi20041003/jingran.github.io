@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小鹿的生活记录</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #faf9f7;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            font-weight: 500;
+            letter-spacing: 2px;
+            color: #4a4a4a;
+        }
+
+        header p {
+            color: #8a8a8a;
+            margin-top: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .post {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+            transition: transform 0.2s ease;
+        }
+
+        .post:hover {
+            transform: translateY(-2px);
+        }
+
+        .post-date {
+            font-size: 0.85rem;
+            color: #aaa;
+            margin-bottom: 0.5rem;
+        }
+
+        .post h2 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 0.8rem;
+            color: #2c2c2c;
+        }
+
+        .post p {
+            color: #555;
+            margin-bottom: 1.2rem;
+        }
+
+        .post img {
+            width: 100%;
+            border-radius: 12px;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            object-fit: cover;
+            max-height: 400px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.8rem;
+            margin-top: 1rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            color: #bbb;
+            font-size: 0.85rem;
+        }
+
+        a {
+            color: #6b8f71;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌿 小鹿的生活碎片</h1>
+            <p>用文字和照片，留住每一个值得的瞬间</p>
+        </header>
+
+        <!-- 第一篇记录 -->
+        <article class="post">
+            <div class="post-date">2026年4月28日</div>
+            <h2>周末去了海边</h2>
+            <p>临时起意坐了两个小时的车，看到海的那一刻觉得什么都值了。风很大，但阳光很温柔，沙滩上还有一只慢悠悠散步的狗。</p>
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800" alt="海边的下午">
+        </article>
+
+        <!-- 第二篇记录 -->
+        <article class="post">
+            <div class="post-date">2026年4月22日</div>
+            <h2>新买的茉莉开花了</h2>
+            <p>早上推开阳台门就闻到一阵清香，小小的白花一夜之间开了好几朵。煮了一壶茶，看了半本书，日子慢下来真好。</p>
+            <div class="gallery">
+                <img src="https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=400" alt="白色茉莉">
+                <img src="https://images.unsplash.com/photo-1474898381524-033e0b4c0443?w=400" alt="阳台茶杯">
+            </div>
+        </article>
+
+        <!-- 第三篇记录 -->
+        <article class="post">
+            <div class="post-date">2026年4月15日</div>
+            <h2>和朋友一起做了顿饭</h2>
+            <p>四个人挤在厨房里，有人切菜有人偷吃，最后端出六道菜，虽然卖相一般，但笑到肚子疼。</p>
+            <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800" alt="一起做饭的傍晚">
+        </article>
+
+        <footer>
+            <p>保持记录，保持热爱 ✨</p>
+            <p style="margin-top:0.5rem;">© 2026 小鹿的生活记录</p>
+        </footer>
+    </div>
+</body>
+</html>
